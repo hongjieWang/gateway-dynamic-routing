@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        # 配置文件的环境
+        group: dev
+        # 配置中心的地址
+        server-addr: 127.0.0.1:8848
+        #命名空间 test
+        namespace: dev
+      discovery:
+        # 配置文件的环境
+        group: dev
+        # 配置中心的地址
+        server-addr: 127.0.0.1:8848
+        #命名空间 test
+        namespace: dev

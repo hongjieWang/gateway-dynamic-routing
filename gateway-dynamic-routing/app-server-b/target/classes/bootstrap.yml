@@ -1,0 +1,23 @@
+server:
+  port: 9012
+spring:
+  application:
+    name: app-center-b
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      config:
+        # 配置文件的格式
+        file-extension: yml
+
+logging:
+  level:
+    com:
+      cyclepack:
+        mapper: debug
+
+jdd:
+  log:
+    path: logs
+debug: true
