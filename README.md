@@ -100,7 +100,7 @@ app-server-a、app-server-b 为测试服务，gateway-server为网关服务。
 
 这里我们重点看下网关服务的实现；
 
-![WX20220906-134621@2x](https://img-1258527903.cos.ap-beijing.myqcloud.com/img/WX20220906-134621@2x.png)![](
+![WX20220906-134621@2x](https://img-1258527903.cos.ap-beijing.myqcloud.com/img/WX20220906-134621@2x.png)
 
 代码非常简单，主要配置类、监听器、路由更新机制。
 
