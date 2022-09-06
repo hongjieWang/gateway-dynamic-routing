@@ -8,6 +8,11 @@ import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+/**
+ * 路由配置类
+ *
+ * @author wanghongjie
+ */
 @Configuration
 public class RouteOperatorConfig {
     @Bean

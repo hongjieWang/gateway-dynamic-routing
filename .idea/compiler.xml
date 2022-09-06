@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gateway-server" />
+        <module name="app-server-a" />
+        <module name="app-server-b" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="app-server-a" target="11" />
+      <module name="app-server-b" target="11" />
+      <module name="gateway-dynamic-routing" target="11" />
+      <module name="gateway-server" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

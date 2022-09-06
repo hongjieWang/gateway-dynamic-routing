@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gateway-dynamic-routing/app-server-a/app-server-a.iml" filepath="$PROJECT_DIR$/gateway-dynamic-routing/app-server-a/app-server-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-dynamic-routing/app-server-b/app-server-b.iml" filepath="$PROJECT_DIR$/gateway-dynamic-routing/app-server-b/app-server-b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-dynamic-routing/gateway-dynamic-routing.iml" filepath="$PROJECT_DIR$/gateway-dynamic-routing/gateway-dynamic-routing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-dynamic-routing/gateway-server/gateway-server.iml" filepath="$PROJECT_DIR$/gateway-dynamic-routing/gateway-server/gateway-server.iml" />
+    </modules>
+  </component>
+</project>

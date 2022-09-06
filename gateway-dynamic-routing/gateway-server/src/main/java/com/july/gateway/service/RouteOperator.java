@@ -88,7 +88,7 @@ public class RouteOperator {
         // 用Jackson反序列化
         List<RouteDefinition> routeDefinitions = null;
         try {
-            routeDefinitions = objectMapper.readValue(configStr, new TypeReference<List<RouteDefinition>>() {
+            routeDefinitions = objectMapper.readValue(configStr, new TypeReference<>() {
             });
         } catch (JsonProcessingException e) {
             log.error("get route definition from nacos string error", e);
